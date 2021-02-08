@@ -24,7 +24,7 @@ all:
 
 
 run: all
-	java -cp classes org.ioopm.calculator.Calculator
+	java -cp $(SRC)/classes editor
 
 .PHONY: clean
 
