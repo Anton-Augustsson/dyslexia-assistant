@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "test gui",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Anton",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.2",
+    "electron-reload": "^1.5.0",
+    "jquery": "^3.6.0"
+  }
+}

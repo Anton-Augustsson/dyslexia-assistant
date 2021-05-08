@@ -1,0 +1,38 @@
+.menu {
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 2px;
+  background-color: var(--color-menu);
+}
+
+#pausePlayDiv {
+    width:  91px;
+    top: 4px;
+    display: flex;
+}
+
+#getTextDiv {
+    width: 140px;
+    top: 4px;
+    display: flex;
+}
+
+.icon{
+    top: 12px;
+}
+
+#pause-buttonID {
+    left: 35px;
+}
+
+#play-buttonID {
+    left: 12px;
+}
+
+#arrowID {
+    left: 102px;
+}
+
+#getTextMsg {
+    left: 80px;
+}

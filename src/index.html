@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/menu.css">
+    <link rel="stylesheet" type="text/css" href="style/switch.css">
+    <link href='style/arrow-down-o.css' rel='stylesheet'>
+    <link href='style/play-button-o.css' rel='stylesheet'>
+    <link href='style/play-pause-o.css' rel='stylesheet'>
+
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="menu" id="getTextDiv">
+        <i class="icon gg-arrow-down-o" id="arrowID"></i>
+        <p id="getTextMsg">Get Text</p>
+      </div>
+      <div class="menu" id="pausePlayDiv">
+        <i class="icon gg-play-button-o" id="play-buttonID"></i>
+        <i class="icon gg-play-pause-o" id="pause-buttonID"></i>
+      </div>
+      <div class="menu" id="toggleDarkModeDiv">
+        <label class="switch">
+          <input type="checkbox" id="toggleDarkModeID" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="menu box" id="languageSelectionDiv">
+        <select>
+          <option value="0">Eng</option>
+          <option value="1">Swe</option>
+          <option value="2">Ger</option>
+        </select>
+      </div>
+    </div>
+    <textarea id="text-edit" name="text-edit">
+      At w3schools.com you will learn how to make a website.
+    </textarea>
+    <!-- You can also require other files to run in this process -->
+    <!-- <script>window.$ = window.jQuery = require('jquery');</script> -->
+   <!-- <script src="./renderer.js"></script> -->
+    <script src="modules/menu.js"></script>
+  </body>
+</html>
